@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT COUNT(*) FROM tbl1 WHERE  strftime('%Y', c14)='2018'
+SELECT K0,MAX(c12), MIN(c12) FROM tbl1 GROUP BY K0
